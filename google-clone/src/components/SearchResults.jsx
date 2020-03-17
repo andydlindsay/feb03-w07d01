@@ -8,7 +8,7 @@ const SearchResults = (props) => {
     <ul className="search-results">
       { results.map(elem => {
         return (
-          <SearchResultsListItem elem={ elem }/>
+          <SearchResultsListItem key={ elem.id } elem={ elem }/>
         );
       }) }
     </ul>

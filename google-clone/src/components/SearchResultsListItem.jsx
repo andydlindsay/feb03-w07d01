@@ -3,7 +3,7 @@ import React from 'react';
 const SearchResultsListItem = (props) => {
   const { elem } = props;
   return (
-    <li key={ elem.id }>
+    <li>
       <h2>{ elem.title }</h2>
       <p>{ elem.content }</p>
       <a
